@@ -21,6 +21,7 @@ public class CartApiController {
 
     @Autowired
     private ActivityFeignClient activityFeignClient;
+    private String java;
 
     // 调价商品到购物车
     @GetMapping("addToCart/{skuId}/{skuNum}")
